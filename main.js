@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         像素点扩展
-// @namespace    
+// @namespace    https://github.com/ziyii01/XiangSuDianKuoZhan
+// @license      GNU AFFERO GENERAL PUBLIC LICENSE
 // @version      2024-07-02
 // @description  try to take over the world!
 // @author       ziyii
 // @match        https://xn--o1qx19eeqi.cn/*
 // @icon         https://xn--o1qx19eeqi.cn/favicon.ico
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/blob/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/blob/main/main.js
 // ==/UserScript==
 
 (function () {
