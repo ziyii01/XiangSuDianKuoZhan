@@ -4,7 +4,7 @@
 // @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @license      GNU AFFERO GENERAL PUBLIC LICENSE
-// @version      v0.0.6
+// @version      v0.0.7
 // @description  try to take over the world!
 // @author       ziyii
 // @match        https://xn--o1qx19eeqi.cn/*
@@ -66,7 +66,7 @@ iiazvvzazzuuuuuuuuuuuavvoooovzzi!@
     // 下拉刷新
     window.addEventListener("scroll", function () {
         const n = document.documentElement.scrollTop;
-        if (n >= 1450) {
+        if (n >= document.querySelector('#杂2').offsetTop + 725) {
             刷新();
         } else {
         }
