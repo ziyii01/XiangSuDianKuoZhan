@@ -8,8 +8,8 @@
 // @match        https://xn--o1qx19eeqi.cn/*
 // @icon         https://xn--o1qx19eeqi.cn/favicon.ico
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/blob/main/main.js
-// @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/blob/main/main.js
+// @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // ==/UserScript==
 
 (function () {
