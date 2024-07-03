@@ -4,7 +4,7 @@
 // @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @license      GNU AFFERO GENERAL PUBLIC LICENSE
-// @version      v0.0.5
+// @version      v0.0.6
 // @description  try to take over the world!
 // @author       ziyii
 // @match        https://xn--o1qx19eeqi.cn/*
@@ -21,7 +21,25 @@
 // ==/UserScript==
 
 (function () {
-    console.log("by.ziyii");
+    const _猫球 = `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@iiiuzzzzzzzzzu!!!@@@@@@@@
+@@@@@@@iiuaauaziiii!!a;*~u!!@@@@@@
+@@@@@@iuauia^ +ziiia^ *z-*au!@@@@@
+@@@@@@izaia^          -zunnv!@@@@@
+@@@@@@iza~   zu   vi   *uoov!@@@@@
+@@@@@iizao             ;!!uv!@@@@@
+@@@iiiunaa^           +v!izvi!!@@@
+iii1unonznvao.     -;v!iuavvna!!@@
+i1anooonzaazuavvvvvvnnnnzvooonai!@
+iznnonzzaazuuuuuuuuuuavvoooooon1!@
+iiazvvzazzuuuuuuuuuuuavvoooovzzi!@
+@@iiiuauzzauuuuuuuuuuazuzvnova!!@@
+@@@@@@iiiiuvvvvvvvvvvvvaua!!!!@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`
+    console.log(_猫球);
+    console.log("脚本 by.ziyii");
     const _url = "https://xn--o1qx19eeqi.cn/";
     // 快捷关联
     const _masterList = {
