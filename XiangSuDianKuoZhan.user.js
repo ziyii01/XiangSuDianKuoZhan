@@ -38,8 +38,6 @@ iiazvvzazzuuuuuuuuuuuavvoooovzzi!@
 @@@@@@iiiiuvvvvvvvvvvvvaua!!!!@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`;
-  console.log(_猫球);
-  console.log("脚本 by.ziyii");
   const _url = "https://xn--o1qx19eeqi.cn/";
   // 快捷关联
   const _masterList = {
@@ -58,22 +56,6 @@ iiazvvzazzuuuuuuuuuuuavvoooovzzi!@
     FFCDCC: "https://www.helloimg.com/i/2025/01/10/6780d6358ae16.gif",
   };
   let _flag = 0;
-  // 设置关联像素点
-  if (_masterList[主人] != undefined) {
-    const a = document.querySelector("#屋顶");
-    a.appendChild(document.createElement("br"));
-    for (let i = 0; i < _masterList[主人].length; i++) {
-      if (_masterList[主人][i].url == 颜色) {
-        continue;
-      } else {
-        const _a = document.createElement("a");
-        _a.setAttribute("href", `${_url}${_masterList[主人][i].url}`);
-        _a.setAttribute("style", `color:#${_masterList[主人][i].url};`);
-        _a.textContent = `${_masterList[主人][i].name}    `;
-        a.appendChild(_a);
-      }
-    }
-  }
   // 下拉刷新
   window.addEventListener("scroll", function () {
     if (
@@ -91,6 +73,24 @@ iiazvvzazzuuuuuuuuuuuavvoooovzzi!@
   });
   //等待加载完毕
   window.addEventListener("load", function () {
+    console.log(_猫球);
+    console.log("脚本 by.ziyii");
+    // 设置关联像素点
+    if (_masterList[主人] != undefined) {
+      const a = document.querySelector("#屋顶");
+      a.appendChild(document.createElement("br"));
+      for (let i = 0; i < _masterList[主人].length; i++) {
+        if (_masterList[主人][i].url == 颜色) {
+          continue;
+        } else {
+          const _a = document.createElement("a");
+          _a.setAttribute("href", `${_url}${_masterList[主人][i].url}`);
+          _a.setAttribute("style", `color:#${_masterList[主人][i].url};`);
+          _a.textContent = `${_masterList[主人][i].name}    `;
+          a.appendChild(_a);
+        }
+      }
+    }
     //简介自动打开
     try {
       document.getElementById("代码k3").style = "display:none;";
