@@ -4,7 +4,7 @@
 // @updateURL    https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/ziyii01/XiangSuDianKuoZhan/main/main.js
 // @license      GNU AFFERO GENERAL PUBLIC LICENSE
-// @version      v0.0.9
+// @version      v0.0.11
 // @description  try to take over the world!
 // @author       ziyii
 // @match        https://xn--o1qx19eeqi.cn/*
